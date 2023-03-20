@@ -17,7 +17,7 @@ const bucketName = "red9ja-videos";
 
 app.use(
   cors({
-    origin: ["http://localhost:8888"],
+    origin: ["http://localhost:8888", "http://mlifeinvestmenthub.com", "https://mlifeinvestmenthub.com", "https://www.mlifeinvestmenthub.com"],
   })
 );
 
