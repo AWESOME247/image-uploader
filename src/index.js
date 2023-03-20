@@ -39,7 +39,7 @@ app.post(
           Key: name + "_" + Date.now(),
           Body: fs.createReadStream(file.path),
           ContentType: file.mimetype,
-          ACL: "public-read",
+          ACL: "public-read"
         })
         .promise();
       return res.send(response);
